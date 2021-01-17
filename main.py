@@ -29,7 +29,7 @@ def main():
             print(f"{current_time} Players: {get_clients()}")
             if get_clients() >= 4:
                 ctypes.windll.user32.MessageBoxW(0, f"Vier of meer spelers zijn verbonden", "-=|TeA|=- Hitman's Server Stalker", 0x00040000)
-        time.sleep(600) #Check every 20 min
+        time.sleep(1200) #Check every 20 min
 
 
 main()
